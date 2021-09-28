@@ -1,0 +1,154 @@
+main {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: gray; */
+    height : 100vh;
+    width : 100%;
+}
+
+#hidden {
+    overflow: hidden
+}
+
+div.home-body {
+    display:flex;
+    flex-direction: column;
+    /* background-color: pink; */
+    margin:10px;
+    height : 70%;
+    width:80vw;
+    align-self: center;
+    box-shadow: 3px 3px 10px gray;
+}
+div.image-box {
+    display:flex;
+    margin:auto;
+    margin-top: 80px;
+    height : 20%;
+    padding:20px;
+    flex-grow:3;
+    /* background-color: red; */
+}
+img {
+    width : 100%;
+    height : 100%;
+}
+
+div.buttonBox {
+    display:row;
+    display:flex;
+    align-self: center;
+    margin:auto;
+    /* background-color: blue; */
+    height : 100px;
+    width : 80%;
+    align-items: center;
+}
+button {
+    border-radius: 15px;
+    border : none;
+    box-shadow: 1px 1px 5px gray;
+    flex-grow: 1;
+    margin:5px;
+    height:30px;
+    width:50px;
+    background-color: white;
+}
+button:hover {
+    background-color: rgb(54, 51, 51);
+    color:white;
+}
+
+button:active {
+    background-color: lightgray;
+    color : black;
+  }
+
+div.navBar {
+    overflow:hidden;
+    background-color: lightgray;
+}
+
+.navBar a {
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 16px;
+}
+
+.navBar a:hover {
+    background-color:rgb(199, 199, 199);
+}
+
+.navBar a.active {
+    background-color: darkgray;
+    box-shadow: 1px 1px 5px gray;
+}
+
+main.page {
+    display:flex;
+    flex-direction: column;
+    /* background-color: pink; */
+    align-content: center;
+    height : 70%;
+    width:100%;
+    align-self: center;
+    box-shadow: 3px 3px 10px gray;
+}
+
+div.gallery {
+    display:flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+div.gallery-box {
+    margin: 10px;
+    display:flex;
+    height: 20%;
+    width: 20%;
+    align-items: center;
+    margin:auto;
+    margin-top: 20px;
+}
+
+div.collection {
+    display:flex;
+    align-self: center;
+    box-shadow: 1px 1px 5px gray;
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    height : 90%;
+    flex-wrap:wrap;
+    flex-direction: row;
+    overflow-y: auto;
+}
+
+img.flex-img{
+    width:auto;
+    height:auto;
+    flex-grow : 1;
+    padding-right : 2px;
+    padding-top: 2px;
+}
+
+img.gall-img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    font-family: sans-serif;
+}
+
+
+
+

@@ -142,9 +142,10 @@ img.flex-img{
 }
 
 img.gall-img {
-    flex-grow:1;
+    flex-shrink: 50;
+    /* flex-grow:1; */
     width:auto;
-    height:auto;
+    height:auto; 
 }
 
 header {

@@ -1,0 +1,9 @@
+div.text-box {
+    display:flex;
+    align-self: center;
+    height: 60vh;
+    width: 70vw;
+    margin: 40px;
+    box-shadow: 1px 1px 5px gray;
+}
+

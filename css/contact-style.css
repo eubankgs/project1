@@ -2,18 +2,36 @@ ul {
     list-style-type: none;
     height: 300px;
     text-align: left;
-    font-size: 30px;
+    font-size: 25px;
     padding-bottom: 30px;
 }
 div.card-box {
     display:flex;
     align-self: center;
     flex-direction: column;
-    height: 600px;
+    height: 85vh;
 }
 
 div.card-content {
     margin: 40px;
     box-shadow: 1px 1px 5px gray;
     padding:20px;
+}
+
+.animation {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    animation-name: rotation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;  
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(-12deg);
+    } to {
+        transform: rotate(12deg)
+    }
 }

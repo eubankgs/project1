@@ -70,7 +70,7 @@ button:active {
     color : black;
   }
 
-div.navBar {
+.navBar {
     overflow:hidden;
     background-color: lightgray;
 }

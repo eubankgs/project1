@@ -35,3 +35,9 @@ div.card-content {
         transform: rotate(12deg)
     }
 }
+
+@media screen and (max-width: 600px) {
+    ul {
+        height: 200px;
+    }
+}

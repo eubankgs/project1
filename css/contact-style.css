@@ -1,6 +1,6 @@
 ul {
     list-style-type: none;
-    height: 300px;
+    height: 200px;
     text-align: left;
     font-size: 25px;
     padding-bottom: 30px;
@@ -38,6 +38,13 @@ div.card-content {
 
 @media screen and (max-width: 600px) {
     ul {
+        height: 100px;
+    }
+
+    div.card-content {
+        margin: 40px;
+        box-shadow: 1px 1px 5px gray;
+        padding:20px;
         height: 200px;
     }
 }

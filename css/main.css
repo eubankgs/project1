@@ -40,7 +40,7 @@ img {
     height : 100%;
 }
 
-div.buttonBox {
+div.button-box {
     display:row;
     display:flex;
     align-self: center;
@@ -70,12 +70,12 @@ button:active {
     color : black;
   }
 
-.navBar {
+.nav-bar {
     overflow:hidden;
     background-color: lightgray;
 }
 
-.navBar a {
+.nav-bar a {
     float: left;
     color: black;
     text-align: center;
@@ -84,11 +84,11 @@ button:active {
     padding: 14px 16px;
 }
 
-.navBar a:hover {
+.nav-bar a:hover {
     background-color:rgb(199, 199, 199);
 }
 
-.navBar a.active {
+.nav-bar a.active {
     background-color: darkgray;
     box-shadow: 1px 1px 5px gray;
 }

@@ -19,8 +19,9 @@ div.card-content {
 }
 
 .animation {
-    width: 5px;
-    height: 5px;
+    font-size:30px;
+    width: 10px;
+    height: 10px;
     position: relative;
     animation-name: rotation;
     animation-duration: 1s;

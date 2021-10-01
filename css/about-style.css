@@ -24,13 +24,10 @@ p {
     }
 
     div.text-box {
-        height: 100vh;
+        height: 300px;
         width: 90vw;
         box-shadow: 1px 1px 5px gray;
     }
 
-    main.page {
-        height : 100%;
-    }
     
 }
